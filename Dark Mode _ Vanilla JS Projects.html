@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://anjana.dev/vanilla-js-projects/dark-mode/index.html -->
+<html data-theme="dark">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://anjana.dev/vanilla-js-projects/favicon.svg"
+    />
+
+    <title>Dark Mode | Vanilla JS Projects</title>
+
+    <link
+      rel="stylesheet"
+      crossorigin=""
+      href="./Dark Mode _ Vanilla JS Projects_files/pico.css"
+    />
+    <link
+      rel="stylesheet"
+      crossorigin=""
+      href="./Dark Mode _ Vanilla JS Projects_files/darklight.css"
+    />
+    <link rel="stylesheet" href="./darkMode.js" />
+  </head>
+
+  <body class="container grid">
+    <header>
+      <h1>dark mode</h1>
+    </header>
+
+    <nav style="align-self: center">
+      <label>
+        <input
+          type="checkbox"
+          id="toggle"
+          name="toggle"
+          role="switch" 
+          checked=""
+        />
+        <span>Use dark mode</span>
+      </label>
+    </nav>
+
+    <main>
+      <article>
+        <main id="darklight">
+          <form id="form">
+            <div class="input">
+                <input type="text" name="first-name" id="first-name" placeholder="first name">
+                <input type="text" name="last-name" id="last-name" placeholder="last name">
+                <input type="date" name="dob" id="dob" placeholder="date of birth">
+            </div>
+            <button type="submit">submit</button>
+            <div id="display"></div>
+        </form>
+    
+        </main>
+      </article>
+    </main>
+
+    <footer></footer>
+    <script id="theme.js" src="darkMode.js"></script>
+  </body>
+</html>
